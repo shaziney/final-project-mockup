@@ -1,0 +1,26 @@
+<template name="Language_Partners">
+  <div class="ui container" style="padding:40px">
+    {{#if Template.subscriptionsReady}}
+      <div class="ui cards" style="margin-left:60px">
+        {{#each market in marketsList}}
+          <div class="ui card">
+            <div class="content">
+              <div class="header">{{market.name}}</div>
+              <div class="description">
+                <p>Name: {{market.days}}</p>
+                <p>Native Language(s): {{market.start}} - {{market.finish}}</p>
+                <p>Target Language(s): {{market.island}}</p>
+              </div>
+            </div>
+            <div class="ui bottom attached button">
+              <a class="{{ isActiveRoute 'Request_Page'}} item" href="{{ pathFor 'Reviews_Page' }}">Request Exchange</a>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    {{else}}
+      {{> Loading}}
+    {{/if}}
+
+  </div>
+</template>

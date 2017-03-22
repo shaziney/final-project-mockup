@@ -8,3 +8,13 @@ import './home-page.html';
 
 import './list-stuff-page.html';
 import './list-stuff-page.js';
+
+import '.create-partner-profile.html';
+import '.create-partner-profile.js';
+
+import '.language-partners.html';
+import '.language-partners.js';
+
+import 'login-page.html';
+import 'login-page.js';
+

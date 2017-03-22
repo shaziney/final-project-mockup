@@ -1,0 +1,23 @@
+<template name="Create_Partner_Profile">
+
+  <div style="margin-top: 20px" class="ui container">
+
+    <form class="ui form contact-data-form {{ errorClass }}">
+      <h4 class="ui dividing header">Add Contact</h4>
+
+      <div class="field">
+        <div class="two fields">
+          {{> Text_Form_Control label="First Name" required=true errorMessage=(fieldError "first")}}
+          {{> Text_Form_Control label="Last Name" required=true errorMessage=(fieldError "last")}}
+        </div>
+      </div>
+      {{> Text_Form_Control label="Native Language(s)" required=true errorMessage=(fieldError "native")}}
+      <div class="field">
+        <div class="two fields">
+          {{> Text_Form_Control label="Target Language(s)" required=true errorMessage=(fieldError "learning")}}
+        </div>
+      </div>
+      <button class="ui button" type="submit">Submit</button>
+    </form>
+  </div>
+</template>
