@@ -1,21 +1,33 @@
-body {
-  padding-top: 61px; /* Move body of page below navbar. */
+.header-style {
+  position: fixed;
+}
+
+.container {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ui.centered.text.container {
+  position: fixed;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background: rgba(255, 255, 255, 0.8);
+  color: #1A8BBC;
+  height: 500px;
+  width: 700px;
+}
+
+a {
+  color: white;
 }
 
 .ui.borderless.inverted.menu {
   background-color: #1A8BBC;
-}
-
-.landing-page-background {
-  background: url('/images/language-exchange.jpg') no-repeat center center fixed;
-  background-size: cover;
-  height: 950px;
-  opacity: 0.3;
+  color: white;
 }
 
 .ui.middle.aligned.centered.grid.text.container {
   color: #1A8BBC;
-  opacity: initial !important;
 }
 
 .ui.center.aligned.container {
@@ -24,4 +36,6 @@ body {
 
 .footer-style {
   background-color: #1A8BBC;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }

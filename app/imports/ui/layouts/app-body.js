@@ -9,5 +9,6 @@ Template.App_Body.helpers({
 });
 
 Template.App_Body.events({
- // placeholder: if you add a form to this top-level layout, handle the associated events here.
+  // placeholder: if you add a form to this top-level layout, handle the associated events here.
 });
+
