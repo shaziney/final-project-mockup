@@ -15,6 +15,41 @@ FlowRouter.route('/home', {
   },
 });
 
+FlowRouter.route('/partners', {
+  name: 'Language_Partners',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Language_Partners' });
+  },
+});
+
+FlowRouter.route('/open', {
+  name: 'Open_Sessions',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Open_Sessions' });
+  },
+});
+
+FlowRouter.route('/dashboard', {
+  name: 'Dashboard',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Dashboard' });
+  },
+});
+
+FlowRouter.notFound = {
+  action() {
+    BlazeLayout.render('App_Body', { main: 'App_Not_Found' });
+  },
+};
+
+
+
+
+
+
+
+
+
 FlowRouter.route('/list', {
   name: 'List_Stuff_Page',
   action() {
@@ -35,9 +70,3 @@ FlowRouter.route('/stuff/:_id', {
     BlazeLayout.render('App_Body', { main: 'Edit_Stuff_Page' });
   },
 });
-
-FlowRouter.notFound = {
-  action() {
-    BlazeLayout.render('App_Body', { main: 'App_Not_Found' });
-  },
-};

@@ -9,3 +9,14 @@ import './landing.html';
 
 import './list-stuff-page.html';
 import './list-stuff-page.js';
+
+import './language-partners.html';
+import './language-partners.js';
+
+import './open-sessions.html';
+import './open-sessions.js';
+
+import './dashboard.html';
+import './dashboard.js';
+
+
