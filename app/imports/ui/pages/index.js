@@ -23,4 +23,7 @@ import './find-partners.html';
 import './find-partners.js';
 
 import './request-exchange.html';
-import './request-exchange';
+import './request-exchange.js';
+
+import './login.html';
+import './login.js';

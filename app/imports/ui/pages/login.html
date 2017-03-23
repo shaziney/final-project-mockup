@@ -1,0 +1,28 @@
+<template name="Login">
+  <div class="user-login-page">
+    {{#If_Logged_In}}
+
+    {{/If_Logged_In}}
+    <div class="ui grid container background">
+      <div class="ui container user login page">
+        <div class="ui inverted fluid left icon input">
+          <input type="text" placeholder="Username">
+          <i class="user icon"></i>
+        </div>
+        <br/>
+        <div class="ui inverted fluid left icon input">
+          <input type="text" placeholder="Password">
+          <i class="lock icon"></i>
+        </div>
+        <br/>
+        <button class="ui login page button">
+          Log in
+        </button>
+        <button class="ui create account page button">
+          Create Account
+        </button>
+      </div>
+    </div>
+
+  </div>
+</template>
