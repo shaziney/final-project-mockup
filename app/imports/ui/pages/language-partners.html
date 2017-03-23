@@ -1,10 +1,11 @@
 <template name="Language_Partners">
-
-  <div class="ui fluid container" style="padding:40px">
+  <img class="ui fluid background-image" src="/images/language-exchange.jpg"
+       style="z-index: -5; opacity: 0.4; position: absolute; display: block; width: 100vw; height: 100vh; object-fit: cover">
+  <div class="ui centered card-container">
     {{#if Template.subscriptionsReady}}
-      <div class="ui cards">
+      <div class="ui four cards">
         {{#each partner in partnersList}}
-          <div class="ui card">
+          <div class="ui centered raised card">
             <div class="content">
               <div class="header">{{partner.first}} {{partner.last}}</div>
               <div class="description">
@@ -12,7 +13,7 @@
                 <p>Learning: {{partner.learning}}</p>
               </div>
             </div>
-            <div class="ui bottom attached button">
+            <div class="ui teal bottom attached button">
               <a class="{{ isActiveRoute 'Request_Exchange'}} item" href="{{ pathFor 'Request_Exchange' }}">Request Exchange</a>
             </div>
           </div>

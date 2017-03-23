@@ -41,6 +41,8 @@ a {
 .ui.borderless.inverted.menu {
   background-color: #1A8BBC;
   color: white;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .ui.middle.aligned.centered.grid.text.container {
@@ -54,4 +56,8 @@ a {
 .footer-style {
   background-color: #1A8BBC;
   padding-bottom: 1%;
+}
+
+.ui.centered.card-container {
+  margin: 4% 10% 4% 10%;
 }

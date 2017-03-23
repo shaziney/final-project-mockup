@@ -1,4 +1,4 @@
-import { Contacts } from '../../api/partners/partners.js';
+import { Partners } from '../../api/partners/partners.js';
 import { _ } from 'meteor/underscore';
 
 /**
