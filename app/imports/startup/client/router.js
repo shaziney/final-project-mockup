@@ -22,6 +22,13 @@ FlowRouter.route('/partners', {
   },
 });
 
+FlowRouter.route('/find', {
+  name: 'Find_Partners',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Find_Partners' });
+  },
+});
+
 FlowRouter.route('/open', {
   name: 'Open_Sessions',
   action() {
@@ -33,6 +40,13 @@ FlowRouter.route('/dashboard', {
   name: 'Dashboard',
   action() {
     BlazeLayout.render('App_Body', { main: 'Dashboard' });
+  },
+});
+
+FlowRouter.route('/request', {
+  name: 'Request_Exchange',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Request_Exchange' });
   },
 });
 

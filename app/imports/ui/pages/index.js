@@ -19,4 +19,8 @@ import './open-sessions.js';
 import './dashboard.html';
 import './dashboard.js';
 
+import './find-partners.html';
+import './find-partners.js';
 
+import './request-exchange.html';
+import './request-exchange';
