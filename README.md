@@ -2,6 +2,8 @@
 http://courses.ics.hawaii.edu/ics314s17/morea/meteor-3/experience-mockup-development.html
 A flexible alternative to UHM's International Language Exchange program.
 
+## Status: Incomplete
+
 # Landing
 <img width="1440" alt="ile-u_landing" src="https://cloud.githubusercontent.com/assets/20621249/24239381/cc13d164-0f51-11e7-9e52-d3e92039831b.png">
 
@@ -14,3 +16,6 @@ Includes an Owl Carousel.
 
 # Language Partners
 <img width="1440" alt="ile-u_partners" src="https://cloud.githubusercontent.com/assets/20621249/24239382/cc1409f4-0f51-11e7-8993-adf4e757c03e.png">
+
+# Find Language Partners
+<img width="1440" alt="ile-u_find" src="https://cloud.githubusercontent.com/assets/20621249/24240621/65c0b01c-0f56-11e7-87a0-4c0ca9a9f2c2.png">
