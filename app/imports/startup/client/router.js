@@ -8,6 +8,13 @@ FlowRouter.route('/', {
   },
 });
 
+FlowRouter.route('/login', {
+  name: 'Login',
+  action() {
+    BlazeLayout.render('Login');
+  },
+});
+
 FlowRouter.route('/home', {
   name: 'Home',
   action() {

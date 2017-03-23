@@ -1,0 +1,19 @@
+<template name="Login">
+
+  <img class="ui fluid background-image" src="/images/language-exchange.jpg"
+       style="z-index: -5; opacity: 0.9; position: absolute; display: block; width: 100vw; height: 100vh; object-fit: cover">
+
+  <div class="ui centered grid login-container">
+    <div class="ui two rows">
+      <div class="ui top-row"><h2 class="login-title">ILE-U</h2></div>
+      <div class="ui row">
+        <form class="ui form login-form">
+          <div class="ui field">{{> Text_Form_Control placeholder="Username"}}</div>
+          <div class="ui field">{{> Text_Form_Control placeholder="Password"}}</div>
+          <button class="ui blue button" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>
+
