@@ -72,8 +72,18 @@ a {
   right: 0;
 }
 
+.owl-carousel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .ui.center.aligned.container {
   color: white;
+}
+
+.ui.centered.grid.home-container {
+  color: #1A8BBC;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-style {

@@ -1,2 +1,23 @@
 <template name="Home">
+
+  <img class="ui fluid background-image" src="/images/language-exchange.jpg"
+       style="z-index: -5; opacity: 0.4; position: absolute; display: block; width: 100vw; height: 100vh; object-fit: cover">
+
+  <div class="owl-carousel">
+    <div><img style="width: 600px; height: 400px" class="ui centered image" src="/images/nice-students.jpg"></div>
+    <div><img style="width: 600px; height: 400px" class="ui centered image" src="/images/manoa-students.jpeg"></div>
+    <div><img style="width: 600px; height: 400px" class="ui centered image" src="/images/student-search.jpg"></div>
+  </div>
+
+  <script>
+    $(".owl-carousel").owlCarousel({
+      items: 1,
+      autoplay: true,
+      autoPlaySpeed: 5000,
+      loop: true,
+      autoplayHoverPause: true,
+      dots: false,
+    });
+  </script>
+
 </template>
