@@ -5,6 +5,22 @@ import './edit-stuff-page.html';
 import './edit-stuff-page.js';
 
 import './home-page.html';
+import './landing.html';
 
 import './list-stuff-page.html';
 import './list-stuff-page.js';
+
+import './language-partners.html';
+import './language-partners.js';
+
+import './open-sessions.html';
+import './open-sessions.js';
+
+import './dashboard.html';
+import './dashboard.js';
+
+import './find-partners.html';
+import './find-partners.js';
+
+import './request-exchange.html';
+import './request-exchange';
