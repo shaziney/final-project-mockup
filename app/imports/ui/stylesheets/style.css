@@ -94,3 +94,8 @@ a {
 .ui.centered.card-container {
   margin: 4% 10% 4% 10%;
 }
+
+.ui.form.find-partner-form {
+  padding-top: 6%;
+  padding-bottom: 9%;
+}
